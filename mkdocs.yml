@@ -71,7 +71,22 @@ nav:
           - '[pip]更新国内镜像源': python/tool/pip.md
           - '[pnno]转换json/dict数据为voc-xml': python/tool/pnno.md
         - ERROR: python/error.md
-
+    - 视觉库:
+      - Matplotlib:
+        - 引言: matplotlib/引言.md
+        - 属性配置: matplotlib/属性配置.md
+        - 中文乱码: matplotlib/中文乱码.md
+        - 绘图关键概念Figure和Axes: matplotlib/绘图关键概念Figure和Axes.md
+        - 手动设置轴刻度间隔: matplotlib/手动设置轴刻度间隔.md
+        - '[译]Pyplot教程': matplotlib/译-Pyplot教程.md
+        - 折线图: matplotlib/折线图.md
+        - 饼图: matplotlib/饼图.md
+        - 散点图: matplotlib/散点图.md
+        - '图像读取、显示和保存': matplotlib/图像读取-显示和保存.md
+        - 3d绘图: matplotlib/3d绘图.md
+        - 等高线图: matplotlib/等高线图.md
+        - 矩阵显示: matplotlib/矩阵显示.md
+        - y轴坐标错乱: matplotlib/y轴坐标错乱.md
       # - Numpy:
       #     - '[numpy]提取数组中属于某一条件的数据': './python/[numpy]提取数组中属于某一条件的数据.md'
       #     - '[numpy]数据保存和加载': './python/[numpy]数据保存和加载.md'

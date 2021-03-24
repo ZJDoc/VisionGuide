@@ -71,6 +71,13 @@ nav:
           - '[pip]更新国内镜像源': python/tool/pip.md
           - '[pnno]转换json/dict数据为voc-xml': python/tool/pnno.md
         - ERROR: python/error.md
+    - 计算框架:
+      - Numpy:
+        - '提取数组中属于某一条件的数据': numpy/提取数组中属于某一条件的数据.md
+        - '数据保存和加载': numpy/数据保存和加载.md
+        - '增加或者减少一维': numpy/增加或者减少一维.md
+        - '元素累加': numpy/元素累加.md
+        - '[clip]限制取值范围': numpy/限制取值范围.md
     - 视觉库:
       - Matplotlib:
         - 引言: matplotlib/引言.md
@@ -87,9 +94,3 @@ nav:
         - 等高线图: matplotlib/等高线图.md
         - 矩阵显示: matplotlib/矩阵显示.md
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
-      # - Numpy:
-      #     - '[numpy]提取数组中属于某一条件的数据': './python/[numpy]提取数组中属于某一条件的数据.md'
-      #     - '[numpy]数据保存和加载': './python/[numpy]数据保存和加载.md'
-      #     - '[numpy]增加或者减少一维': './python/[numpy]增加或者减少一维.md'
-      #     - '[numpy]元素累加': './python/[numpy]元素累加.md'
-      #     - '[numpy][clip]限制取值范围': './python/[numpy][clip]限制取值范围.md'

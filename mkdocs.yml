@@ -65,8 +65,8 @@ nav:
           - 打包和分发Python程序: ./python/tool/打包和分发Python程序.md
           - '[setup.py]保存额外数据': python/tool/setup.md
           - '[requirements.txt]依赖文件生成和使用': python/tool/requirements.md
-          - pytest: python/tool/pytest.md
-          - converage: python/tool/converage.md
+          - '[pytest]功能测试': python/tool/pytest.md
+          - '[coverage]测试代码覆盖率': python/tool/converage.md
           - '[fire]自动生成命令行界面': python/tool/fire.md
           - '[pip]更新国内镜像源': python/tool/pip.md
           - '[pnno]转换json/dict数据为voc-xml': python/tool/pnno.md

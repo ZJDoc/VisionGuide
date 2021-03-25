@@ -72,6 +72,37 @@ nav:
           - '[pnno]转换json/dict数据为voc-xml': python/tool/pnno.md
         - ERROR: python/error.md
     - 计算框架:
+      - PyTorch:
+        - 引言: pytorch/index.md
+        - 语法:
+          - Tensor: pytorch/grammar/tensor.md
+          - one-hot编码: pytorch/grammar/onehot.md
+          - '[transpose][permute]维度转换': pytorch/grammar/transpose-permute.md
+          - '[clamp]限制取值范围': pytorch/grammar/clamp.md
+          - '[index_fill]在给定维度填充指定val': pytorch/grammar/index_fill.md
+          - '[nonzero]非零元素下标': pytorch/grammar/nonzero.md
+          - '[Conv][Pool]实现原理': pytorch/grammar/conv-pool.md
+          - 自定义损失函数: pytorch/grammar/自定义损失函数.md
+          - '[softmax]分类概率计算': pytorch/grammar/softmax.md
+          - '[AdaptiveMaxPool][AdaptiveAvgPool]自适应池化层': pytorch/grammar/AdaptiveMaxPool-AdaptiveAvgPool.md
+          - LeNet-5定义: pytorch/grammar/LeNet5.md
+          - AlexNet定义: pytorch/grammar/AlexNet.md
+        - Cuda:
+          - 安装哪个版本的CUDA: pytorch/cuda/安装哪个版本的CUDA.md
+          - '[CUDA_VISIBLE_DEVICES]指定哪张卡运行': pytorch/cuda/指定哪张卡运行.md
+          - '[empty_cache]清空显存': pytorch/cuda/empty_cache.md
+          - '[benchmark]训练加速': pytorch/cuda/benchmark.md
+          - 监控显存使用: pytorch/cuda/监控显存使用.md
+        - Train:
+          - '[译]保存和加载模型': pytorch/train/译-保存和加载模型.md
+          - 固定部分参数进行训练: pytorch/train/固定部分参数进行训练.md
+          - 查询模型参数总数: pytorch/train/查询模型参数总数.md  
+          - 为什么推荐使用static_dict方式保存模型: pytorch/train/为什么推荐使用static_dict方式保存模型.md
+          - 加载部分预训练模型: pytorch/train/加载部分预训练模型.md
+          - '[[DistributedDataParallel]分布式训练]': pytorch/train/distributeddataparallel.md
+        - Tool:
+          - 可视化: pytorch/tool/visualize.md
+        - ERROR: pytorch/error.md
       - Numpy:
         - '提取数组中属于某一条件的数据': numpy/提取数组中属于某一条件的数据.md
         - '数据保存和加载': numpy/数据保存和加载.md
@@ -94,3 +125,13 @@ nav:
         - 等高线图: matplotlib/等高线图.md
         - 矩阵显示: matplotlib/矩阵显示.md
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
+      - Torchvision:
+          - 数据预处理: torchvision/数据预处理.md
+          - '[数据归一化]均值和方差': torchvision/均值和方差.md
+          - '[sampler]采样器': torchvision/采样器.md
+          - 自定义采样器: torchvision/自定义采样器.md
+          - '加载数据集、批量以及转换操作': torchvision/加载数据集-批量以及转换操作.md
+          - 自定义数据集和预处理操作: torchvision/自定义数据集和预处理操作.md
+          - ImageFolder使用: torchvision/ImageFolder.md    
+          - '[ConcatDataset]连接多个数据集': torchvision/concatdataset.md
+          - '[Ten Crops]多样本裁剪': torchvision/ten-crops.md

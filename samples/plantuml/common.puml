@@ -1,0 +1,8 @@
+@startuml
+scale 300*200
+title 第一行bababa\n第二行bababa
+
+class Hello {
+  + hi: int
+}
+@enduml

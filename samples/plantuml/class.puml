@@ -1,0 +1,81 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' class Dummy {
+'     String data
+'     void methods()  
+' }
+
+' class Flight {
+'     +flightNumber: Integer
+'     -departureTime: Data
+    
+'     # hahah(): void
+' }
+
+' ' 泛化 空心三角形+实线
+' Class01 <|-- Class02
+' ' 实现 空心三角形+虚线
+' Class03 <|.. Class04
+' ' 组合 实心菱形+实线
+' Class05 *-- Class06
+' ' 聚合 空心菱形+实线
+' Class07 o-- Class08
+' ' 关联 箭头+实线
+' Class09 <-- Class10
+' ' 依赖 箭头+虚线
+' Class11 <.. Class12
+
+' namespaceA.Class01 <|-- namespaceB.Class02
+
+' class Dummy {
+'     {static} String id
+'     {abstract} void methods()
+'     {static} virtual void hi() override
+' }
+
+' Class01 "1" *-- "many" Class02 : contains
+
+' Class03 o-- Class04 : aggregation
+
+' Class05 --> "1" Class06
+
+' class Dummy01 {
+'     String data
+'     void methods()
+' }
+
+' class Dummy02 {
+'     data: String
+'     methods(): void
+' }
+
+' class Dummy03 {
+'     String data
+'     void methods() override
+' }
+
+class default {
+    + int field01
+    - float field02
+
+    + void method01()
+    - float method02()
+}
+
+class custom {
+    + int field01
+    ' 两格点号表示虚线
+    ..
+    - float field02
+    ' 两格下划线表示实线
+    __
+    ' 可以在线段中间添加文字
+    .. 构造器 ..
+    custom()
+    __ override __
+    + void method01()
+    - float method02()
+}
+
+@enduml

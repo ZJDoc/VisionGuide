@@ -110,6 +110,67 @@ nav:
         - '元素累加': numpy/元素累加.md
         - '[clip]限制取值范围': numpy/限制取值范围.md
     - 视觉库:
+      - Torchvision:
+        - 数据预处理: torchvision/数据预处理.md
+        - '[数据归一化]均值和方差': torchvision/均值和方差.md
+        - '[sampler]采样器': torchvision/采样器.md
+        - 自定义采样器: torchvision/自定义采样器.md
+        - '加载数据集、批量以及转换操作': torchvision/加载数据集-批量以及转换操作.md
+        - 自定义数据集和预处理操作: torchvision/自定义数据集和预处理操作.md
+        - ImageFolder使用: torchvision/ImageFolder.md    
+        - '[ConcatDataset]连接多个数据集': torchvision/concatdataset.md
+        - '[Ten Crops]多样本裁剪': torchvision/ten-crops.md
+      - OpenCV:
+        - 概述: opencv/index.md
+        - 配置:
+          - 'OpenCV 3.x':
+            - 'OpenCV-3.4.2源码安装': opencv/configure/3.4.2/源码安装.md
+            - 'OpenCV_Contrib-3.4.2源码安装': './opencv/configure/3.4.2/Contrib-源码安装.md'
+            - 'OpenCV-3.4.2测试': opencv/configure/3.4.2/测试.md
+          - 'OpenCV 4.x':
+            - 'OpenCV-4.0.1安装': opencv/configure/4.0.1/安装.md
+            - 'OpenCV-4.0.1测试': opencv/configure/4.0.1/测试.md
+            - '[OpenCV_Contrib-4.0.1]编译OpenCV4Android': opencv/configure/4.0.1/编译OpenCV4Android.md
+            - 'OpenCV-4.1.0安装': opencv/configure/4.1.0/安装.md
+            - 'OpenCV-4.1.0配置及测试': opencv/configure/4.1.0/配置及测试.md
+            - 'OpenCV-4.2.0安装': opencv/configure/4.2.0/安装.md
+            - 'OpenCV-4.2.0配置及测试': opencv/configure/4.2.0/配置及测试.md
+            - 'OpenCV-4.4.0安装': opencv/configure/4.4.0/安装.md
+          - Python:
+            - '[opencv-python]编译与安装': opencv/configure/python/opencv-python.md
+            - '[PyCharm]解码opencv python库': opencv/configure/python/pycharm.md
+            - '[OpenCV]Anaconda配置': opencv/configure/python/anaconda配置.md
+          - '[SSH][OpenCV]远程图像显示': './opencv/configure/SSH-OpenCV-远程图像显示.md'
+        - 处理:
+          - Base:
+            - 运行时间统计: opencv/process/base/运行时间统计.md
+            - '[VideoWriter]保存H264/MPEG4格式MP4视频': opencv/process/base/h264-mpeg4.md
+            - '[normalize]标准化数据': opencv/process/base/normalize.md
+            - '[convertTo]数据转换': opencv/process/base/convertTo.md
+            - '[vconcat][hconcat]按行合并以及按列合并': opencv/process/base/vconcat-hconcat.md
+            - '[Point_]坐标点的保存和使用': opencv/process/base/Point_.md
+            - '[Scalar_]4维向量': opencv/process/base/Scalar_.md
+            - '[copyMakeBorder]添加边界': opencv/process/base/copyMakeBorder.md
+            - '[cartToPolar]二维向量的大小和角度': opencv/process/base/cartToPolar.md
+            - '[threshold]基本阈值操作': opencv/process/base/threshold.md
+            - '[旋转][平移][缩放]仿射变换': opencv/process/base/仿射变换.md
+            - 单目标追踪: opencv/process/base/单目标追踪.md
+          - Filter:
+              - '[filter2D]线性滤波器': opencv/process/filter/filter2d.md
+              - '[Sobel]图像求导': opencv/process/filter/sobel.md
+              - '[Scharr]图像求导': opencv/process/filter/scharr.md
+              - '[Laplacian]图像求导': opencv/process/filter/laplacian.md
+              - '[Canny]边缘检测': opencv/process/filter/canny.md
+          - Feature:
+            - '特征/特征检测/特征描述': opencv/process/feature/Understanding-Features.md
+            - '[SIFT]特征和描述符计算': opencv/process/feature/sift.md
+            - '[Brute-Force][FLANN]特征匹配': opencv/process/feature/特征匹配.md
+        - 绘制:
+          - '[line]绘制线段': opencv/draw/line.md
+          - '[rectangle]绘制边框': opencv/draw/rectangle.md
+          - '[掩码]绘制多边形': opencv/draw/fillPoly.md
+          - '[text]绘制文本': opencv/draw/text.md
+          - '[text]绘制中文字符': opencv/draw/绘制中文字符.md
       - Matplotlib:
         - 引言: matplotlib/引言.md
         - 属性配置: matplotlib/属性配置.md
@@ -125,13 +186,3 @@ nav:
         - 等高线图: matplotlib/等高线图.md
         - 矩阵显示: matplotlib/矩阵显示.md
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
-      - Torchvision:
-          - 数据预处理: torchvision/数据预处理.md
-          - '[数据归一化]均值和方差': torchvision/均值和方差.md
-          - '[sampler]采样器': torchvision/采样器.md
-          - 自定义采样器: torchvision/自定义采样器.md
-          - '加载数据集、批量以及转换操作': torchvision/加载数据集-批量以及转换操作.md
-          - 自定义数据集和预处理操作: torchvision/自定义数据集和预处理操作.md
-          - ImageFolder使用: torchvision/ImageFolder.md    
-          - '[ConcatDataset]连接多个数据集': torchvision/concatdataset.md
-          - '[Ten Crops]多样本裁剪': torchvision/ten-crops.md

@@ -9,5 +9,6 @@
     * `PyTorch` 
     * `Numpy`
 * 视觉库
+    * `Torchvision`
     * `OpenCV`
     * `Matplotlib`

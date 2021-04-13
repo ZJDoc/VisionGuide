@@ -256,6 +256,7 @@ nav:
             - '[旋转][平移][缩放]仿射变换': opencv/process/base/仿射变换.md
             - 单目标追踪: opencv/process/base/单目标追踪.md
             - 去除小黑点: opencv/process/base/去除小黑点.md
+            - 非局部均值去噪: opencv/process/base/非局部均值去噪.md
           - Filter:
               - '[filter2D]线性滤波器': opencv/process/filter/filter2d.md
               - '[Sobel]图像求导': opencv/process/filter/sobel.md

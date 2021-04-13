@@ -257,6 +257,7 @@ nav:
             - 单目标追踪: opencv/process/base/单目标追踪.md
             - 去除小黑点: opencv/process/base/去除小黑点.md
             - 非局部均值去噪: opencv/process/base/非局部均值去噪.md
+            - 对比度增强: opencv/process/base/对比度增强.md
           - Filter:
               - '[filter2D]线性滤波器': opencv/process/filter/filter2d.md
               - '[Sobel]图像求导': opencv/process/filter/sobel.md

@@ -70,7 +70,7 @@ nav:
           - '[fire]自动生成命令行界面': python/tool/fire.md
           - '[pip]更新国内镜像源': python/tool/pip.md
           - '[pnno]转换json/dict数据为voc-xml': python/tool/pnno.md
-        - ERROR: python/error.md
+        - 问题解答: python/troubleshooting.md
       - C++11:
         - '学习C++之路': './cplusplus/学习C++之路.md'
         - 'C++标准': './cplusplus/C++标准.md'
@@ -202,7 +202,7 @@ nav:
           - '[[DistributedDataParallel]分布式训练]': pytorch/train/distributeddataparallel.md
         - Tool:
           - 可视化: pytorch/tool/visualize.md
-        - ERROR: pytorch/error.md
+        - 问题解答: pytorch/troubleshooting.md
       - Numpy:
         - '提取数组中属于某一条件的数据': numpy/提取数组中属于某一条件的数据.md
         - '数据保存和加载': numpy/数据保存和加载.md

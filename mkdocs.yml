@@ -209,6 +209,7 @@ nav:
         - '增加或者减少一维': numpy/增加或者减少一维.md
         - '元素累加': numpy/元素累加.md
         - '[clip]限制取值范围': numpy/限制取值范围.md
+        - 问题解答: numpy/troubleshooting.md
     - 视觉库:
       - Torchvision:
         - 数据预处理: torchvision/数据预处理.md

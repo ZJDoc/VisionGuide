@@ -11,7 +11,7 @@
 
 执行`PyTorch`程序，发生内存不足错误
 
-### 内存查询
+* 内存查询
 
 监视内存，查看是否是内存不足
 
@@ -22,7 +22,7 @@ $ watch -n 1 free -m
 $ wathc -n 1 nvidia-smi
 ```
 
-### num_workers
+* num_workers
 
 确实不是因为内存不足，那么修改`DataLoader`的`num_workers`为`0`，再重新运行即可
 
@@ -51,11 +51,13 @@ Mem:            62G         13G        450M        308M         49G         48G
 Swap:          7.6G        4.2G        3.4G
 ```
 
-### 额外阅读
+* 额外阅读
 
-* [Process finished with exit code 137 in PyCharm](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.set_start_method)
-* [multiprocessing.set_start_method(method)](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.set_start_method)
-* [Semaphore leaks in dataloader](https://github.com/pytorch/pytorch/issues/11727)
+[Process finished with exit code 137 in PyCharm](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.set_start_method)
+
+[multiprocessing.set_start_method(method)](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.set_start_method)
+
+[Semaphore leaks in dataloader](https://github.com/pytorch/pytorch/issues/11727)
 
 ## 问题三：RuntimeError: CUDA error: initialization error
 

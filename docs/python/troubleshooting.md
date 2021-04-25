@@ -27,3 +27,25 @@ $ pip install imgaug
 ```
 $ pythoh -m pip install imgaug
 ```
+
+## 问题二：AttributeError: module 'scipy.misc' has no attribute 'imread'
+
+* 问题描述
+
+```
+AttributeError: module 'scipy.misc' has no attribute 'imread'
+```
+
+* 问题解析
+
+`scipy`版本过高
+
+* 解决方案
+
+```
+$ pip install scipy==1.2.1
+```
+
+* 参考
+
+[解决AttributeError: module 'scipy.misc' has no attribute 'imread'报错问题](https://blog.csdn.net/fu6543210/article/details/103515909)

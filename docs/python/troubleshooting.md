@@ -49,3 +49,31 @@ $ pip install scipy==1.2.1
 * 参考
 
 [解决AttributeError: module 'scipy.misc' has no attribute 'imread'报错问题](https://blog.csdn.net/fu6543210/article/details/103515909)
+
+## 问题三：OSError: image file is truncated (24 bytes not processed)
+
+* 问题描述
+
+使用`PIL Image`读取图片时出现如下错误：
+
+```
+```
+
+* 问题解析
+
+从提示信息来看，是因为图片文件太大了，`PIL Image`默认不支持大图片读取
+
+* 解决方案
+
+参考：
+
+[OSError: image file is truncated (X bytes not processed)错误处理](https://blog.csdn.net/hzs3237259/article/details/108188323)
+
+[OSError: image file is truncated (28 bytes not processed)](https://www.cnblogs.com/yqpy/p/11362350.html)
+
+在文件头添加
+
+```
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+```

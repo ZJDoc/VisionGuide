@@ -77,3 +77,19 @@ $ pip install scipy==1.2.1
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 ```
+
+## 问题四：AttributeError: module 'ssl' has no attribute 'PROTOCOL_TLSv1' 
+
+* 问题描述：
+
+使用`Miniconda`安装`Python`环境，完成后使用`conda/pip`安装时均出现错误
+
+* 问题解决：
+
+```
+$ sudo apt install openssl
+```
+
+* 相关阅读
+
+[AttributeError: module 'ssl' has no attribute 'PROTOCOL_TLSv1' #1029](https://github.com/pyca/pyopenssl/issues/1029)

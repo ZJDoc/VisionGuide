@@ -12,3 +12,4 @@
     * `Torchvision`
     * `OpenCV`
     * `Matplotlib`
+    * `Libjpeg-turbo`

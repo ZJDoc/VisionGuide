@@ -291,3 +291,6 @@ nav:
         - 等高线图: matplotlib/等高线图.md
         - 矩阵显示: matplotlib/矩阵显示.md
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
+      - Libjpeg-turbo:
+        - 引言: libjpeg/index.md
+        - 编译: libjpeg/ubuntu-compile.md

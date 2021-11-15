@@ -61,6 +61,7 @@ nav:
           - '[xmltodict]读取XML文件': python/grammar/xmltodict.md
           - '[json]文件读写': python/grammar/json.md
           - '[yaml]文件读写': python/grammar/yacs.md
+          - 'Monkey Patch': python/grammar/monkey-patch.md
         - 工具:  
           - 打包和分发Python程序: ./python/tool/打包和分发Python程序.md
           - '[setup.py]保存额外数据': python/tool/setup.md

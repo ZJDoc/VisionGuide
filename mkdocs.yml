@@ -169,6 +169,8 @@ nav:
             - 'find': './cplusplus/advanced/stl/find.md'
             - 'sort': './cplusplus/advanced/stl/sort.md'
             - '[shuffle]随机重排列': './cplusplus/advanced/stl/[shuffle]随机重排列.md'
+        - 操作:
+          - '计时': cplusplus/operate/计时.md
         - FAQ:
           - 'multiple definition of': './cplusplus/faq/multiple-definition-of.md'
           - 'ISO C++ forbids converting a string constant to char*': './cplusplus/faq/ISO C++ forbids converting a string constant to char*.md'

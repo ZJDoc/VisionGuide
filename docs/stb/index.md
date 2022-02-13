@@ -1,7 +1,7 @@
 
 # 引言
 
-最近发现一个非常实用的单文件库：[ nothings/stb](https://github.com/nothings/stb)，仅需加入单个头文件即可完成图像加载、图像保存等操作。
+最近发现一个非常实用的单文件库：[ nothings/stb](https://github.com/nothings/stb)，仅需加入单个头文件即可完成图像加载（*获取字节流以及对应的宽/高/通道数等信息*）、图像保存等操作。
 
 图像处理相关的操作包括：
 

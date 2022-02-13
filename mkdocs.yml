@@ -297,3 +297,5 @@ nav:
       - Libjpeg-turbo:
         - 引言: libjpeg/index.md
         - 编译: libjpeg/ubuntu-compile.md
+      - Stb:
+        - 引言: stb/index.md

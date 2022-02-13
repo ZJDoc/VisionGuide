@@ -13,3 +13,4 @@
     * `OpenCV`
     * `Matplotlib`
     * `Libjpeg-turbo`
+    * `stb`

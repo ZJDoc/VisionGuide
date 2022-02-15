@@ -190,6 +190,7 @@ nav:
           - '[AdaptiveMaxPool][AdaptiveAvgPool]自适应池化层': pytorch/grammar/AdaptiveMaxPool-AdaptiveAvgPool.md
           - LeNet-5定义: pytorch/grammar/LeNet5.md
           - AlexNet定义: pytorch/grammar/AlexNet.md
+          - 调整张量打印位数: pytorch/grammar/precision.md
         - Cuda:
           - 安装哪个版本的CUDA: pytorch/cuda/安装哪个版本的CUDA.md
           - '[CUDA_VISIBLE_DEVICES]指定哪张卡运行': pytorch/cuda/指定哪张卡运行.md

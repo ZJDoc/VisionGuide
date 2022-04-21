@@ -72,6 +72,12 @@ opencv-python-headless == 4.2.0.32
 
 **Note：应该查看`requirements.txt`文件，去除有些不存在的库，比如工程目录`utils`**
 
+还可以使用命令去除引用注释和比较运算符（`[==, ~=, >=]`）
+
+```
+$  pigar -o ">=" --without-referenced-comments
+```
+
 ### 小结
 
 需要结合上述两个工具：

@@ -299,6 +299,7 @@ nav:
         - 矩阵显示: matplotlib/矩阵显示.md
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
         - 指定轴取值范围以及显示轴刻度: matplotlib/指定轴取值范围以及显示轴刻度.md
+        - 设置双Y轴: matplotlib/设置双Y轴.md
       - Libjpeg-turbo:
         - 引言: libjpeg/index.md
         - 编译: libjpeg/ubuntu-compile.md

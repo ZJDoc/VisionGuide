@@ -7,5 +7,5 @@ include_directories(/home/zj/repos/googletest/googletest/include)
 link_directories(/home/zj/repos/googletest/build/lib)
 set(gtest_lib libgmock.a  libgmock_main.a  libgtest.a  libgtest_main.a)
 
-add_executable(GTestDemo main.cpp)
+add_executable(GTestDemo gtest_main.cpp gtest_two.cpp)
 target_link_libraries(GTestDemo ${gtest_lib} pthread)

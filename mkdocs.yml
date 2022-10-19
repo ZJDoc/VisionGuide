@@ -39,7 +39,7 @@ extra_javascript:
 nav:
     - Home: index.md
     - 编程语言:
-      - Python:
+      - PYTHON:
         - 语法: 
           - 类操作: python/grammar/类操作.md
           - 装饰器: python/grammar/装饰器.md
@@ -175,7 +175,7 @@ nav:
           - 'multiple definition of': './cplusplus/faq/multiple-definition-of.md'
           - 'ISO C++ forbids converting a string constant to char*': './cplusplus/faq/ISO C++ forbids converting a string constant to char*.md'
     - 计算框架:
-      - PyTorch:
+      - PYTORCH:
         - 引言: pytorch/index.md
         - 语法:
           - Tensor: pytorch/grammar/tensor.md
@@ -208,7 +208,7 @@ nav:
         - Tool:
           - 可视化: pytorch/tool/visualize.md
         - 问题解答: pytorch/troubleshooting.md
-      - Numpy:
+      - NUMPY:
         - '提取数组中属于某一条件的数据': numpy/提取数组中属于某一条件的数据.md
         - '数据保存和加载': numpy/数据保存和加载.md
         - '增加或者减少一维': numpy/增加或者减少一维.md
@@ -217,8 +217,8 @@ nav:
         - 问题解答: numpy/troubleshooting.md
       - MNN:
         - 引言: mnn/index.md 
-    - 视觉库:
-      - Torchvision:
+    - 视觉实现:
+      - TORCHVISION:
         - 数据预处理: torchvision/数据预处理.md
         - '[数据归一化]均值和方差': torchvision/均值和方差.md
         - '[sampler]采样器': torchvision/采样器.md
@@ -228,7 +228,7 @@ nav:
         - ImageFolder使用: torchvision/ImageFolder.md    
         - '[ConcatDataset]连接多个数据集': torchvision/concatdataset.md
         - '[Ten Crops]多样本裁剪': torchvision/ten-crops.md
-      - OpenCV:
+      - OPENCV:
         - 概述: opencv/index.md
         - 配置:
           - 'OpenCV 3.x':
@@ -244,7 +244,7 @@ nav:
             - 'OpenCV-4.2.0安装': opencv/configure/4.2.0/安装.md
             - 'OpenCV-4.2.0配置及测试': opencv/configure/4.2.0/配置及测试.md
             - 'OpenCV-4.4.0安装': opencv/configure/4.4.0/安装.md
-          - Python:
+          - PYTHON:
             - '[opencv-python]编译与安装': opencv/configure/python/opencv-python.md
             - '[PyCharm]解码opencv python库': opencv/configure/python/pycharm.md
             - '[OpenCV]Anaconda配置': opencv/configure/python/anaconda配置.md
@@ -283,7 +283,7 @@ nav:
           - '[掩码]绘制多边形': opencv/draw/fillPoly.md
           - '[text]绘制文本': opencv/draw/text.md
           - '[text]绘制中文字符': opencv/draw/绘制中文字符.md
-      - Matplotlib:
+      - MATPLOTLIB:
         - 引言: matplotlib/引言.md
         - 属性配置: matplotlib/属性配置.md
         - 中文乱码: matplotlib/中文乱码.md
@@ -300,8 +300,8 @@ nav:
         - y轴坐标错乱: matplotlib/y轴坐标错乱.md
         - 指定轴取值范围以及显示轴刻度: matplotlib/指定轴取值范围以及显示轴刻度.md
         - 设置双Y轴: matplotlib/设置双Y轴.md
-      - Libjpeg-turbo:
+      - LIBJPEG-TURBO:
         - 引言: libjpeg/index.md
         - 编译: libjpeg/ubuntu-compile.md
-      - Stb:
+      - STB:
         - 引言: stb/index.md

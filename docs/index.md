@@ -14,3 +14,6 @@
     * `Matplotlib`
     * `Libjpeg-turbo`
     * `stb`
+* 工具
+    * `cmake`
+    * `google test`

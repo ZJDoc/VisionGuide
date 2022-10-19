@@ -311,3 +311,6 @@ nav:
           - 最小实现: cmake/minimum.md
           - 结构优化: cmake/optimization.md
           - 条件编译: cmake/condition.md
+        - GTEST:
+          - 引言: gtest/index.md
+          - 编译: gtest/compile.md

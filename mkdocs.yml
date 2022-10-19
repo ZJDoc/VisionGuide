@@ -315,3 +315,4 @@ nav:
           - 引言: gtest/index.md
           - 编译: gtest/compile.md
           - 使用: gtest/primer.md
+          - 小结: gtest/summary.md

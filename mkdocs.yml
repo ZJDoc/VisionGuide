@@ -316,3 +316,7 @@ nav:
           - 编译: gtest/compile.md
           - 使用: gtest/primer.md
           - 小结: gtest/summary.md
+        - CLANG-FORMAT:
+          - 引言: clang-format/index.md
+          - 配置文件: clang-format/generate.md
+          - Clion配置: clang-format/clion.md

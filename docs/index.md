@@ -17,3 +17,4 @@
 * 工具
     * `cmake`
     * `google test`
+    * `clang-format`

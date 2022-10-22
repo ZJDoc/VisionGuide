@@ -11,6 +11,10 @@
 
 修改`C++`文件后使用快捷命令`ctrl+alt+L`即进行格式化操作
 
+* 点击菜单栏`File->Settings->Tools->Actions on Save`，选中`Reformat code / Optimize imports / Rearrange code`
+
+这样修改文件后保存文件就可以自动格式化了
+
 ## 错误
 
 ```

@@ -218,6 +218,10 @@ nav:
       - MNN:
         - 引言: mnn/index.md
         - 编译: mnn/compile.md
+        - 推理: mnn/infer.md
+        - 模型转换: mnn/convert.md
+        - 模型量化: mnn/quantization.md
+        - 预处理: mnn/imageprocess.md
     - 视觉实现:
       - TORCHVISION:
         - 数据预处理: torchvision/数据预处理.md

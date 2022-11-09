@@ -7,6 +7,8 @@
 * 官方文档：[MNN中文文档](https://www.yuque.com/mnn/cn/about)
 * `Github`地址：[alibaba/MNN](https://github.com/alibaba/MNN)
 
+## 功能模块
+
 按使用功能可以将`MNN`划分为以下模块：
 
 1. 训练模块
@@ -15,7 +17,7 @@
 4. 预处理模块（*包含常用的图像操作，包括旋转、缩放、裁剪、归一化等等。可以替代第三方图像库使用，比如`OpenCV`*）
 5. 其他组件
 
-模型推理流程：
+## 模型推理流程
 
 1. 将`Pytorch`模型转换成`ONNX`格式：`.pt -> .onnx`
 2. 将`ONNX`模型转换成`MNN`格式：`.onnx -> .mnn`

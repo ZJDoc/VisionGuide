@@ -216,7 +216,8 @@ nav:
         - '[clip]限制取值范围': numpy/限制取值范围.md
         - 问题解答: numpy/troubleshooting.md
       - MNN:
-        - 引言: mnn/index.md 
+        - 引言: mnn/index.md
+        - 编译: mnn/compile.md
     - 视觉实现:
       - TORCHVISION:
         - 数据预处理: torchvision/数据预处理.md

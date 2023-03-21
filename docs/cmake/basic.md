@@ -23,3 +23,12 @@ file(GLOB_RECURSE FILES_RECURSE . "*.cc" "*.txt")
 ```
 
 * [File manipulation command.](https://cmake.org/cmake/help/latest/command/file.html?highlight=file#command:file)
+
+```text
+aux_source_directory(<dir> <variable>)
+# 获取指定路径下的所有源文件
+aux_source_directory(${CMAKE_SOURCE_DIR} SOURCES)
+MESSAGE(STATUS "SOURCES: ${SOURCES}")
+```
+
+* [aux_source_directory](https://cmake.org/cmake/help/latest/command/aux_source_directory.html)

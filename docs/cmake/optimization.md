@@ -38,17 +38,9 @@ $ cat run.sh
 
 set -eux
 
-mkdir build
+mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=../install ..
 
-cd build/
-
-cmake -DCMAKE_INSTALL_PREFIX=../install ..
-
-make
-
-make install
-
-cd ..
+make && make install && cd ..
 ```
 
 ## 目录结构

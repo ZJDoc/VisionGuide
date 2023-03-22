@@ -19,3 +19,7 @@ include_directories(../common)
 
 MESSAGE(STATUS "BUILD_MA: ${BUILD_MA}")
 add_library(${BUILD_MA} SHARED ${FILES_RECURSE})
+set_target_properties(${BUILD_MA} PROPERTIES PUBLIC_HEADER ${CMAKE_CURRENT_SOURCE_DIR}/helloma.h)
+
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} DESTINATION include FILES_MATCHING PATTERN "*.h")
+

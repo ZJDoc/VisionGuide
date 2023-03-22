@@ -20,3 +20,5 @@ include_directories(../common)
 MESSAGE(STATUS "BUILD_MB: ${BUILD_MB}")
 add_library(${BUILD_MB} SHARED ${FILES_RECURSE})
 target_link_libraries(${BUILD_MB} PRIVATE ${BUILD_COMMON})
+
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} DESTINATION include FILES_MATCHING PATTERN "*.h")

@@ -9,6 +9,31 @@
 2. 在运行文件中创建可执行程序，链接动态库
 3. 在测试文件中创建gtest测试程序，链接动态库
 
+```text
+submodules
+├── CMakeLists.txt
+├── exec
+│   ├── CMakeLists.txt
+│   └── main.cc
+├── libs
+│   ├── CMakeLists.txt
+│   ├── common
+│   │   ├── CMakeLists.txt
+│   │   ├── common.cc
+│   │   ├── common.h
+│   │   └── mm.h
+│   ├── ma
+│   │   ├── CMakeLists.txt
+│   │   ├── helloma.cc
+│   │   └── helloma.h
+│   └── mb
+│       ├── CMakeLists.txt
+│       ├── himb.cc
+│       └── himb.h
+└── tests
+    └── CMakeLists.txt
+```
+
 ## 相关阅读
 
 * [CMake多模块的构建方式](https://www.leadroyal.cn/p/781/)

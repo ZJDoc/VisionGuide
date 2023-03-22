@@ -17,4 +17,5 @@ MESSAGE(STATUS "FILES_RECURSE: ${FILES_RECURSE}")
 
 include_directories(../common)
 
-add_library(MA SHARED ${FILES_RECURSE})
+MESSAGE(STATUS "BUILD_MA: ${BUILD_MA}")
+add_library(${BUILD_MA} SHARED ${FILES_RECURSE})

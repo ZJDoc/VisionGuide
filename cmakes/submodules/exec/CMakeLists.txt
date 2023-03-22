@@ -15,7 +15,10 @@ MESSAGE(STATUS "CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 file(GLOB_RECURSE FILES_RECURSE . "*.cc")
 MESSAGE(STATUS "FILES_RECURSE: ${FILES_RECURSE}")
 
-add_executable(main ${FILES_RECURSE})
-target_link_libraries(main PRIVATE MA)
-target_link_libraries(main PRIVATE MB)
+include_directories(../libs/common)
+include_directories(../libs/ma)
+include_directories(../libs/mb)
 
+add_executable(main ${FILES_RECURSE})
+#target_link_libraries(main PRIVATE MA MB COMMON)
+target_link_libraries(main PRIVATE ${BUILD_MA} ${BUILD_MB} ${BUILD_COMMON})

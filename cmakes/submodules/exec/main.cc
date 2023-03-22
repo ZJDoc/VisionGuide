@@ -4,8 +4,9 @@
 
 #include <iostream>
 
-#include "../libs/ma/helloma.h"
-#include "../libs/mb/himb.h"
+#include "common.h"
+#include "helloma.h"
+#include "himb.h"
 
 int main(int argc, char* argv[]) {
     std::cout << "Hello main" << std::endl;
@@ -15,6 +16,9 @@ int main(int argc, char* argv[]) {
 
     HiMb mb;
     mb.Hi(3, 4);
+
+    Common cm;
+    std::cout << cm.a_plus_b(5, -3) << std::endl;
 
     return 0;
 }

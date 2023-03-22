@@ -17,5 +17,6 @@ MESSAGE(STATUS "FILES_RECURSE: ${FILES_RECURSE}")
 
 include_directories(../common)
 
-add_library(MB SHARED ${FILES_RECURSE})
-target_link_libraries(MB PRIVATE COMMON)
+MESSAGE(STATUS "BUILD_MB: ${BUILD_MB}")
+add_library(${BUILD_MB} SHARED ${FILES_RECURSE})
+target_link_libraries(${BUILD_MB} PRIVATE ${BUILD_COMMON})

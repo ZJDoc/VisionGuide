@@ -1,21 +1,29 @@
 cmake_minimum_required(VERSION 3.16)
 project(SubModules)
 
+# 目标处理器架构
 MESSAGE(STATUS "CMAKE_SYSTEM_PROCESSOR: ${CMAKE_SYSTEM_PROCESSOR}")
 
+# 安装路径前缀
 set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install)
 MESSAGE(STATUS "CMAKE_INSTALL_PREFIX: ${CMAKE_INSTALL_PREFIX}")
+# 可执行程序运行时搜索路径
 set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib/${CMAKE_SYSTEM_PROCESSOR}")
 set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 
+# 设置动态库名
 set(BUILD_COMMON COMMON)
 set(BUILD_MA MA)
 set(BUILD_MB MB)
+# 设置可执行文件名
 set(BUILD_MAIN main)
 
 MESSAGE(STATUS "=> BUILD ...")
+# 编译库目录
 add_subdirectory(libs)
+# 编译测试目录
 add_subdirectory(tests)
+# 编译可执行文件目录
 add_subdirectory(exec)
 
 MESSAGE(STATUS "=> INSTALL ...")

@@ -19,6 +19,6 @@ include_directories(../libs/common)
 include_directories(../libs/ma)
 include_directories(../libs/mb)
 
-add_executable(main ${FILES_RECURSE})
+add_executable(${BUILD_MAIN} ${FILES_RECURSE})
 #target_link_libraries(main PRIVATE MA MB COMMON)
-target_link_libraries(main PRIVATE ${BUILD_MA} ${BUILD_MB} ${BUILD_COMMON})
+target_link_libraries(${BUILD_MAIN} PRIVATE ${BUILD_MA} ${BUILD_MB} ${BUILD_COMMON})

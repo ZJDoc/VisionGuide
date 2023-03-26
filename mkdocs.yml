@@ -249,6 +249,7 @@ nav:
             - 'OpenCV-4.2.0安装': opencv/configure/4.2.0/安装.md
             - 'OpenCV-4.2.0配置及测试': opencv/configure/4.2.0/配置及测试.md
             - 'OpenCV-4.4.0安装': opencv/configure/4.4.0/安装.md
+            - 'OpenCV-4.7.0安装': opencv/configure/4.7.0/INSTALL.md
           - PYTHON:
             - '[opencv-python]编译与安装': opencv/configure/python/opencv-python.md
             - '[PyCharm]解码opencv python库': opencv/configure/python/pycharm.md

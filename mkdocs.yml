@@ -321,6 +321,8 @@ nav:
           - 条件编译: cmake/condition.md
           - 基础语法: cmake/basic.md
           - 子模块: cmake/submodule.md
+          - cmake安装: cmake/install.md
+          - 交叉编译: cmake/crosscompile.md
         - GTEST:
           - 引言: gtest/index.md
           - 编译: gtest/compile.md
